@@ -439,8 +439,8 @@ export default function App() {
 
         .standings-table tr:hover td { background: var(--bg3); }
 
-        .pts-col { text-align: center; }
-        .form-col { text-align: right; }
+        .pts-col { text-align: left; }
+        .form-col { text-align: left; }
         .bold { font-weight: 700; color: var(--text-bright); }
 
         .pos-cell { width: 40px; }
@@ -470,6 +470,7 @@ export default function App() {
           font-weight: 500;
           color: var(--text-bright);
           min-width: 180px;
+          height: 100%
         }
 
         .team-logo-sm { width: 20px; height: 20px; object-fit: contain; }
